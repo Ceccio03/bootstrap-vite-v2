@@ -1,7 +1,7 @@
 import './style.scss'
-
 import * as bootstrap from 'bootstrap'
+import AppComponent from './components/app-component'
 
-const img = document.createElement('img');
-img.src = '';
-document.getElementById('papere').appendChild(img);
+const app = new AppComponent();
+
+app.render()
